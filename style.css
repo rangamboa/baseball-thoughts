@@ -1,0 +1,19 @@
+header {
+    border: solid 1px grey;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.headerlogo {
+    border: solid 1px grey;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.headermenu {
+    border: solid 1px grey;
+    background-color: lightgrey;
+    padding: 10px;
+    owidth: 100%;
+    align-content: flex-end;
+}
