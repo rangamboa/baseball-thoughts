@@ -13,7 +13,9 @@ header {
     align-items: center;
     position: fixed;
     background-color: lightgrey;
-    oborder-bottom: solid 3px darkred;
+    border-bottom: solid 3px green;
+    background-image: linear-gradient(to bottom, lightgrey, white);
+
 }
 
 .headerLogo {
@@ -62,7 +64,8 @@ main {
 .splash {
     width: 100%;
     height: 175px;
-    background-color: grey;
+    border-bottom: solid 3px black;
+    background-color: lightgrey;
 }
 
 .content {
@@ -72,13 +75,17 @@ main {
 
 section {
     width: 33%;
-    omin-height: 100vh;
     padding: 10px;
 }
 
 section h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
+    background-image: linear-gradient(to bottom right, lightgreen, white);
+    border-top: solid 1px lightgreen;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 section h2 {
@@ -97,12 +104,34 @@ section h3 {
 }
 
 section img {
-    width: 100%;
+    width: 99%;
     border: solid 3px darkgrey;
 }
 
 section p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section p.category {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    padding: 3px;
+    margin: 1px;
+    margin-bottom: 10px;
+    display: inline-block;
+    float:right;
+}
+
+section p.category.food {
+    color: darkred;
+    border-bottom: solid 3px darkred;
+}
+
+section p.more {
+    float: right;
+    font-style: italic;
+    margin-right: 10px;
 }
 
 footer {
